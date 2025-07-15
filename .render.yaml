@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: steam-audio-api
+    env: python
+    buildCommand: ./build.sh
+    startCommand: python app.py
+    envVars:
+      - key: FLASK_ENV
+        value: production
+    plan: free

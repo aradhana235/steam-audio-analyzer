@@ -1,6 +1,6 @@
-flask
-librosa
-numpy
-requests
+librosa==0.11.0
 soundfile
-gunicorn
+numpy
+scipy
+audioread
+soxr
